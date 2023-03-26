@@ -202,7 +202,7 @@ main{
     -webkit-box-align: center;
     font-size: max(calc(13 * var(--res)), 11px);
     border: none;
-    background: linear-gradient(90deg, rgb(45, 66, 252) 0%, rgb(46, 61, 205) 100%);
+    background: linear-gradient(90deg, #ffd700 0%,  #ffcc00 100%);
 }
 
 .card-short{
