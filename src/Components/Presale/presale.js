@@ -114,7 +114,7 @@ function Presale() {
                 value={amount}
                 onChange={handleAmountChange}
               ></input>
-              <p className="balance-user">Your contribution{balance} </p>
+              <p className="balance-user">Your contribution</p>
 
               <div className="eth-pointer">
                 <img src={eth}></img>
