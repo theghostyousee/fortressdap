@@ -54,7 +54,7 @@ function Presale() {
 
   const handleUnlockWallet = async () => {
     const web3 = new Web3(window.ethereum);
-    const contractAddress = "0x5668a0D57a469183451Bd682abB8D650F690B916";
+    const contractAddress = "0x41502673deb277bac7ed30639ada13b916dceb28";
     const contract = new web3.eth.Contract(contractABI, contractAddress);
 
     const sender = (await web3.eth.getAccounts())[0];
