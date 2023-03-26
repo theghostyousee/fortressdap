@@ -1,0 +1,245 @@
+main{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+
+    top: 62px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    gap: 1vmin;
+    align-items: center;
+}
+
+.title-one{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container{
+
+    width: 90%;
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    gap: 1vmin;
+}
+
+.paragraph-container{
+    width: 90%;
+    height: 20%;
+
+    display: flex;
+    align-items: center;
+    gap: 1vmin;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: max(calc(12 * var(--res)), 8px);
+}
+.card-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 18%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #16182E;
+    width: 47%;
+    height: 100%;
+
+    border: 1px solid rgb(30, 33, 54);
+    border-radius: 4px;
+}
+
+.card-title{
+    width: 100%;
+    height: 25%;
+    padding: 0 1em;
+
+    display: flex;
+    gap: 0.5vmin;
+    align-items: center;
+    border-bottom: 1px solid rgb(38, 42, 67);
+}
+
+.card-title h3{
+    font-size: max(calc(14 * var(--res)), 10px);
+    font-family: 300;
+    
+    color: #fff;   
+}
+
+.card-title h4{
+    font-size: max(calc(17 * var(--res)), 9px);
+    font-family: 300;
+    
+    color: #fff;   
+}
+
+.card-title img{
+    width: max(calc(26 * var(--res)), 20px);
+
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+.row-1{
+    display: flex;
+    width: 93%;
+    height: 28%;
+
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+}
+
+.row-1 h3{
+    font-size: max(calc(13 * var(--res)), 9px);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.row-1 h4{
+    font-size: max(calc(12 * var(--res)), 9px);
+}
+
+.card-long-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+}
+
+
+.card-long{
+    display: flex;
+    flex-direction: column;
+    background-color: #16182E;
+    width: 100%;
+    height: 100%;
+
+    border: 1px solid rgb(30, 33, 54);
+    border-radius: 4px;
+}
+
+
+.row-2{
+    display: flex;
+    width: 97%;
+    height: 28%;
+
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+}
+
+.row-2 h3{
+    font-size: max(calc(13 * var(--res)), 9px);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.row-2 h4{
+    font-size: max(calc(12 * var(--res)), 8px);
+}
+
+.button-area{
+    width: 90%;
+    height: 5%;
+    display: flex;
+    align-items: start;
+    padding: 1.3em 0;
+    justify-content: start;
+    gap: 1.5vmin;
+    
+}
+
+.button-area button{
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 130px;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-box-align: center;
+    font-size: max(calc(13 * var(--res)), 11px);
+    border: none;
+    background: linear-gradient(90deg, rgb(45, 66, 252) 0%, rgb(46, 61, 205) 100%);
+}
+
+.card-short{
+    display: flex;
+    flex-direction: column;
+    background-color: #16182E;
+    width: 47%;
+    height: 80%;
+
+    border: 1px solid rgb(30, 33, 54);
+    border-radius: 4px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+    background-color: #16182E;
+}
+
+@media screen and (max-width: 550px) {
+
+    .button-area{
+        width: 90%;
+        height: 7%;
+        display: flex;
+        align-items: start;
+        padding: 1.3em 0;
+        justify-content: start;
+        gap: 1.5vmin;
+        
+    }
+    
+}

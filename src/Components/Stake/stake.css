@@ -1,0 +1,231 @@
+
+body {
+    height: 115vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    background-color: #101127;
+    position: relative;
+}
+
+
+.card-stake-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50%;
+}
+
+.card-stake-holder-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+
+    width: 90%;
+    height: 50%;
+}
+
+.card-stake{
+    display: flex;
+    flex-direction: column;
+    background-color: #16182E;
+    width: 49%;
+    height: 100%;
+
+    border: 1px solid rgb(30, 33, 54);
+    border-radius: 4px;
+}
+
+.card-stake-bottom{
+    display: flex;
+    flex-direction: column;
+    background-color: #16182E;
+    width: 49%;
+    height: 80%;
+
+    border: 1px solid rgb(30, 33, 54);
+    border-radius: 4px;
+}
+
+.card-stake-title{
+    width: 100%;
+    height: 15%;
+    padding: 0 1em;
+
+    display: flex;
+    gap: 0.5vmin;
+    align-items: center;
+    border-bottom: 1px solid rgb(38, 42, 67);
+}
+
+.card-stake-title h3{
+    font-size: max(calc(14 * var(--res)), 10px);
+    font-family: 300;
+    
+    color: #fff;   
+}
+
+.card-stake-title h4{
+    font-size: max(calc(17 * var(--res)), 10px);
+    font-family: 300;
+    
+    color: #fff;   
+}
+
+.card-stake-title img{
+    width: max(calc(26 * var(--res)), 20px);
+
+}
+
+.card-stake-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+}
+
+.wrap-row{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(38, 42, 67);
+
+}
+
+.wrap-row-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 17%;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(38, 42, 67);
+
+}
+
+.row-3{
+    display: flex;
+    width: 93%;
+    height: 20%;
+
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+}
+
+.row-3 h3{
+    font-size: max(calc(12.5* var(--res)), 8px);
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+}
+
+.row-3 h4{
+    font-size: max(calc(11 * var(--res)), 8px);
+}
+
+.connect-stake{
+    width: 93%;
+    height: 20%;
+    align-items: center;
+    display: flex;
+}
+
+.connect-stake button{
+    margin: 6px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 36px;
+    -webkit-box-align: center;
+    align-items: center;
+    border: none;
+    background: rgb(43, 55, 94);
+}
+
+@media screen and (max-width:600px){
+
+    .card-stake-holder{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        height: 51%;
+        gap: 1vmin;
+    }
+
+    .main-wrapper{
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 100%;
+    
+        gap: 3vmin;
+        align-items: center;
+    }
+
+    .card-stake-holder-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    
+        width: 90%;
+        height: 30%;
+    }
+
+    .connect-stake{
+        width: 93%;
+        height: 20%;
+        align-items: center;
+        display: flex;
+    }
+    
+    .connect-stake button{
+        margin: 6px;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: normal;
+        letter-spacing: 0px;
+        color: white;
+        padding-left: 8px;
+        padding-right: 8px;
+        text-decoration: none;
+        box-sizing: border-box;
+        position: relative;
+        font-size: max(calc(11 * var(--res)), 10px);
+
+        min-height: 16px;
+        -webkit-box-align: center;
+        align-items: center;
+        border: none;
+        background: rgb(43, 55, 94);
+    }
+
+    
+    
+    
+    
+}

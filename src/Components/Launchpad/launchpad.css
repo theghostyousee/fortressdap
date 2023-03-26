@@ -1,0 +1,10 @@
+.coming-soon{
+    display: flex;
+    width: 90%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: max(calc(30 * var(--res)), 20px);
+
+}
